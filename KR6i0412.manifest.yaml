@@ -1,0 +1,45 @@
+canonical_identifier: bkk:krp/KR6i0412/v1
+canonical_location: https://kanripo.org/bkk/KR6i0412/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說分別緣生經
+  identifiers:
+    alt_id:
+    - T16n0718
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T16/T16n0718.xml
+    old_id: T16n0718
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0412_000.yaml, hash: 'sha256:d4fc2c8fbaaa7b34f9467d97ee19c70bd07d7e4d9b09e207bd7d175d6848f446'}
+  - {seq: 1, filename: KR6i0412_001.yaml, hash: 'sha256:34bff2620adf6da3452b5755b719a804071546221ecd6ec5f65d1b7d60d91d68'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0412_001.markers.yaml, hash: 'sha256:90f40ee6481c128bc10f2b20aabe7275a5eceaf228b900e69082257ff9247a9b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0412_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 868
+  label: 佛說分別緣生經
+  type: juan
+  level: 1
+hash: sha256:c9393180c88db65411d2b4a7169cb33cca29738f3422ffdc49e0d1393690394c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

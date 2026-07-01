@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0412/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說分別緣生經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T16/T16n0718.xml
+    old_id: T16n0718
+hash: sha256:d4fc2c8fbaaa7b34f9467d97ee19c70bd07d7e4d9b09e207bd7d175d6848f446
