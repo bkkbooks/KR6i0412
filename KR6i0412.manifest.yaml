@@ -25,9 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0412_000.yaml, hash: 'sha256:d4fc2c8fbaaa7b34f9467d97ee19c70bd07d7e4d9b09e207bd7d175d6848f446'}
-  - {seq: 1, filename: KR6i0412_001.yaml, hash: 'sha256:34bff2620adf6da3452b5755b719a804071546221ecd6ec5f65d1b7d60d91d68'}
+  - {seq: 1, filename: KR6i0412_001.yaml, hash: 'sha256:3bad9aa2c84a5b3f9d3481642510d7fee310fed04347be94f7a7668ddb1d6876'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0412_001.markers.yaml, hash: 'sha256:90f40ee6481c128bc10f2b20aabe7275a5eceaf228b900e69082257ff9247a9b'}
+  - {seq: 0, role: markers, filename: assets/KR6i0412_000.markers.yaml, hash: 'sha256:b735d306b794dd18ef91453dea398e89a8a557b10e0e2e36bd9d17985dcb25a3'}
+  - {seq: 1, role: markers, filename: assets/KR6i0412_001.markers.yaml, hash: 'sha256:c7984e2ec2db5be3651b9acfc37b38c609b5317d569170d382265a70a29f45d1'}
 table_of_contents:
 - ref:
     seq: 1
@@ -39,7 +40,4 @@ table_of_contents:
   label: 佛說分別緣生經
   type: juan
   level: 1
-hash: sha256:c9393180c88db65411d2b4a7169cb33cca29738f3422ffdc49e0d1393690394c
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:3e2b431b080ee20015328437ad498bba671208f2f1e6801a2f5a09de432bb4b2
